@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="8.6956521739130448" y="768.75"/>
         </scene>
-        <!--Login View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="AbD-yt-4xz">
             <objects>
-                <viewController id="m3c-1p-7PA" customClass="LoginViewController" customModule="NavigationControllerPractice" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m3c-1p-7PA" customClass="RegisterViewController" customModule="NavigationControllerPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IrE-Jl-TzJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,6 +134,12 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGr-fg-07A">
                                 <rect key="frame" x="20" y="826" width="374" height="30"/>
                                 <state key="normal" title="이미 계정이 있으신가요?"/>
+                                <connections>
+                                    <action selector="buttonForLoginViewController:" destination="Oc6-gr-u2m" eventType="touchUpInside" id="FU5-BA-E4g"/>
+                                    <action selector="onLoginButtonClicked:" destination="m3c-1p-7PA" eventType="touchUpInside" id="0Fs-4Y-RA7"/>
+                                    <action selector="onLoginButtonClicked:" destination="Oc6-gr-u2m" eventType="touchUpInside" id="JVI-1v-PA7"/>
+                                    <action selector="onLoginViewControllerButtonClicked:" destination="Oc6-gr-u2m" eventType="touchUpInside" id="tiS-bI-MML"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sv4-Sf-ZqA"/>
@@ -156,8 +162,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zCd-x7-Nsh"/>
+                    <connections>
+                        <outlet property="buttonLoginViewController" destination="WGr-fg-07A" id="uvm-eQ-lqi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDo-S8-YOT" sceneMemberID="firstResponder"/>
+                <exit id="Oc6-gr-u2m" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="783" y="769"/>
         </scene>
