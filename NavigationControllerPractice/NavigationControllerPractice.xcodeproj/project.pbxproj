@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F38E54426B945A100B523B0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38E54326B945A100B523B0 /* RegisterViewController.swift */; };
+		8FCE59B326BBE39000C0E123 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE59B226BBE39000C0E123 /* MainViewController.swift */; };
 		8FF6E25726B9421F00B56259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6E25626B9421F00B56259 /* AppDelegate.swift */; };
 		8FF6E25926B9421F00B56259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6E25826B9421F00B56259 /* SceneDelegate.swift */; };
 		8FF6E25E26B9421F00B56259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6E25C26B9421F00B56259 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		8F38E54326B945A100B523B0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8FCE59B226BBE39000C0E123 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8FF6E25326B9421F00B56259 /* NavigationControllerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationControllerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF6E25626B9421F00B56259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FF6E25826B9421F00B56259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 			children = (
 				8FF6E26A26B942D300B56259 /* LoginViewController.swift */,
 				8F38E54326B945A100B523B0 /* RegisterViewController.swift */,
+				8FCE59B226BBE39000C0E123 /* MainViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				8FF6E25726B9421F00B56259 /* AppDelegate.swift in Sources */,
 				8FF6E25926B9421F00B56259 /* SceneDelegate.swift in Sources */,
 				8F38E54426B945A100B523B0 /* RegisterViewController.swift in Sources */,
+				8FCE59B326BBE39000C0E123 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
